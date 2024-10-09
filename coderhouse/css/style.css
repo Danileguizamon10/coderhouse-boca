@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+/*?-----header-----*/
+
+header a{
+    color: yellow;
+} 
+
+header img{
+    width: 50px;
+    height: 50px;
+}
+
+header{
+    background-color: blue;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+header a h1{
+    font-size:60px ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight:bold ;
+}
+
+
+header nav ul{
+    list-style: none;
+}
+header nav ul li a{
+    color: yellow;
+}
+
+header nav ul li{
+    display: inline;
+    margin: 10px;
+}
+
+/*------main------*/
+
+.hero{
+    
+    text-align: center;
+height: 90vh; 
+background-image: url("../img/bocajuniors.png.jpg");
+background-position:center ;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+}
+.bienvenidos img{
+    width: 250px;
+    height: 300px; 
+}
+
+.años div img {
+    border: 2px solid gray;
+    width: 250px;
+    height: 300px;
+    text-align: center;
+    margin: 15px;
+    display: block;
+}
+.años div h3{
+    font-size: 22px;
+    margin: 15px;
+}
+.años div a{
+    background-color: blue;
+    color: yellow;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+/*!----index----*/
+
+.fixed{
+    position: fixed;
+    bottom: 80px;
+    right: 50px;
+}
+.fixed a img{
+    width: 80px;
+}
+/*----productos----*/
+
+/*!----footer----*/
+
+footer div a img{
+    width: 50px;
+}
+
