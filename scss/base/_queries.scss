@@ -1,0 +1,326 @@
+@media screen and (max-width:575px) {
+    .hero {
+        h2{
+        font-size:35px;
+        text-align: center;
+        }
+        p{
+            font-size: 18px;
+            text-align: center;
+            width: 100%;
+        }
+        a{
+            width: 100%;
+            font-size: 14px;
+    }
+}
+}
+@media screen and (max-width:465px) {
+    .hero {
+        h2{
+        font-size:25px;
+        }
+        p{
+            font-size: 15px;
+        }
+}
+}
+
+@media screen and (max-width:840px){
+.grid{
+    grid-template-columns: 1fr;
+}
+img{
+    width: 70%;
+}
+iframe{
+    width: 65%;
+        height: 300px;
+}
+}
+
+@media screen and (max-width:480px){
+.bienvenidos{
+    div{
+        h2{
+        font-size: 25px;
+        padding: 10px;
+    }
+    p{
+        font-size: 12px;
+    }
+    }
+    
+}
+}
+
+@media screen and (max-width:535px){
+.años{
+    h2{
+        padding: 5px;
+        font-size: 20px;
+    }
+}
+}
+
+@media screen and (max-width:535px){
+    .dos{
+        flex-direction: column;
+        div{
+            text-align: center;
+            width: 100%;
+            h3{
+                font-size: 25px;
+            }
+            p{
+                font-size: 15px;
+            }
+            a{
+                font-size: 12px;
+            }
+        }
+        img{
+            width: 100%;
+        }
+    }
+}
+
+@media screen and (max-width:535px){
+    .dostres{
+        flex-direction: column-reverse;
+        div{
+            text-align: center;
+            width: 100%;
+            h3{
+                font-size: 25px;
+            }
+            p{
+                font-size: 15px;
+            }
+            a{
+                font-size: 12px;
+            }
+        }
+        img{
+            width: 100%;
+        }
+    }
+}
+
+@media screen and (max-width:535px){
+    .dossiete{
+        flex-direction: column;
+        div{
+            text-align: center;
+            width: 100%;
+            h3{
+                font-size: 25px;
+            }
+            p{
+                font-size: 15px;
+            }
+            a{
+                font-size: 12px;
+            }
+        }
+        img{
+            width: 100%;
+        }
+    }
+}
+
+/*!----idolos----*/
+
+@media screen and (max-width:600px){
+    .intro{
+        h2{
+            font-size: 25px;
+        }
+        p{
+            font-size: 14px;
+        }
+    }
+}
+
+
+@media screen and (max-width:600px){
+    .idolos{
+            div{
+                h2{
+                    font-size: 25px;
+                }
+            }
+    }
+}
+
+/*!----bombonera----*/
+
+@media screen and (max-width:660px){
+    .pag-3{
+        section{
+            div{
+                h1{
+                    font-size: 30px;
+                }
+                p{
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:660px){
+    .img-años{
+        div{
+            h2{
+                font-size: 25px;
+            }
+        }
+        div{
+            img{
+                width: 350px;
+            }
+            p{
+                font-size: 15px;
+            }
+        }
+        div{
+            img{
+                width: 350px;
+            }
+            p{
+                font-size: 15px;
+            }
+        }
+        div{
+            img{
+                width: 350px;
+            }
+            p{
+                font-size: 15px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:660px){
+    .ubi{
+        h2{
+            font-size: 22px;
+        }
+        iframe{
+            width: 380px;
+            height: 380px;
+        }
+    }
+}
+
+/*!----gloria----*/
+
+@media screen and (max-width:950px){
+    .gloria{
+        section{
+            h1{
+
+            }
+            p{
+
+            }
+            div{
+                h2{
+                    font-size: 20px;
+                }
+                p{
+                    font-size: 16px;
+                }
+                img{
+                    width: 350px;
+                }
+            }
+            div{
+                h2{
+                    font-size: 20px;
+                }
+                p{
+                    font-size: 16px;
+                }
+                img{
+                    width: 350px;
+                }
+            }
+            div{
+                h2{
+                    font-size: 20px;
+                }
+                p{
+                    font-size: 16px;
+                }
+                img{
+                    width: 350px;
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width:745px){
+    .gloria{
+        section{
+            h1{
+                font-size: 30px;
+            }
+            p{
+                font-size: 20px;
+            }
+            div{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                
+                
+                h2{
+                    width: 100%;
+                    font-size: 20px;
+                    text-align: center;
+                }
+                p{
+                    width: 100%;
+                    font-size: 16px;
+                }
+                img{
+                    
+                    width: 350px;
+                }
+            }
+            div{
+                h2{
+                    width: 100%;
+                    font-size: 20px;
+                }
+                p{
+                    width: 100%;
+                    font-size: 16px;
+                }
+                img{
+                    width: 350px;
+                }
+            }
+            div{
+                h2{
+                    width: 100%;
+                    font-size: 20px;
+                }
+                p{
+                    font-size: 16px;
+                }
+                    
+                
+                img{
+                    width: 350px;
+                }
+            }
+        }
+    }
+}

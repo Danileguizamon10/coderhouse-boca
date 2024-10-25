@@ -1,0 +1,443 @@
+
+
+
+.hero{
+    text-align: center;
+height: 90vh; 
+background-image: url("../img/boquita.png.jpg");
+background-position:center ;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+display: flex;
+flex-direction: column;
+justify-content: start;
+text-align: start;
+}
+
+.hero{
+    h2{
+    font-size: 40px;
+    color: $color-secundario;
+    padding: 20px;
+    }
+
+    p{
+    font-size: 20px;
+    color: aliceblue;
+    width: 35%;
+    }
+
+    a{
+    color: $color-secundario;
+    text-align: center;
+    width: 30%;
+    }
+}
+
+.bienvenidos{
+    div{background-color: $color-principal;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        
+        h2{
+            width: 100%;
+            margin-top: 20px;
+            background-color: $color-secundario;
+            color: $color-principal;
+            padding: 20px;
+            font-size: 35px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        p{
+            color: $color-secundario;
+            font-size: 18px;
+            padding: 15px;
+            text-align: center;
+        }
+    }
+    iframe{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.grid{
+    padding:20px;
+    background-color: $color-principal;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-auto-rows: 300px;
+    gap: 20px;
+    object-fit: cover;
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.años{
+    font-size: 40px;
+    background-color: $color-principal;
+    color: $color-secundario;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.dos{
+    background-color: $color-principal;
+    display: flex;
+    justify-content: space-between;
+    div{
+        width: 50%;
+        h3{
+            font-size: 45px;
+            color: $color-secundario;
+            display: flex;
+            justify-content: center;
+        }
+
+        a{
+            color: $color-secundario;
+            display: flex;
+            justify-content: center;
+        }
+
+        p{
+            font-size: 20px;
+            color: $color-secundario;
+            padding: 15px;
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    img{
+        width: 300px;
+        height: 350px
+    }
+}
+
+.dostres{
+    padding: 10px;
+    background-color: $color-principal;
+    display: flex;
+    justify-content:space-between ;
+    div{
+        width: 50%;
+        h3{
+            color: $color-secundario;
+            font-size: 45px;
+            display: flex;
+            justify-content: center;
+        }
+
+        a{
+            color: $color-secundario;
+            display: flex;
+            justify-content: center;
+        }
+
+        p{
+            font-size: 20px;
+            padding: 15px;
+            color: $color-secundario;
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    img{
+        width: 300px;
+        height: 350px;
+    }
+}
+
+.dossiete{
+    background-color: $color-principal;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    div{
+        width: 50%;
+        h3{
+            font-size: 40px;
+            color: $color-secundario;
+            display: flex;
+            justify-content: center;
+        }
+    
+        p{
+            font-size: 20px;
+            padding: 15px;
+            color:$color-secundario;
+            display: flex;
+            justify-content: center;
+        }
+        
+        a{
+            color: $color-secundario;
+            display: flex;
+            justify-content: center;
+        }
+    }
+    
+    img{
+        width: 300px;
+        height: 250px;
+    }
+}
+
+.fixed{
+    position: fixed;
+    bottom: 60px;
+    right: 50px;
+    img{
+        width: 60px;
+    }
+}
+
+/*!----idolos----*/
+
+
+.pag-dos{
+    background-color: nth($colores, 2);
+    color: nth($colores,1);
+    h3{
+        font-size: nth($size,3);
+        text-align: center;
+        padding: 5px;
+    }
+    p{
+        font-size: nth($size,2);
+        
+        padding: 5px;
+    }
+}
+
+.intro{
+        h2{
+            font-size: nth($size,5);
+            text-align: center;
+            padding: 10px;
+            background-color: $color-secundario;
+            color: $color-principal;
+        }
+}
+
+.idolos{
+    h2{
+        font-size: nth($size,4);
+        background-color: $color-secundario;
+        color: $color-principal;
+        padding: 10px;
+    }
+}
+
+.roman{
+    @extend %borde,
+}
+
+.martin{
+    @extend %borde,
+}
+
+.virey{
+    @extend %borde,
+}
+
+.tevez{
+    @extend %borde,
+}
+
+.mouzo{
+    @extend %borde,
+}
+
+
+
+
+
+
+
+/*!----bombonera----*/
+
+.pag-3{
+    background-color: $color-principal;
+    section{
+        div{
+            h1{
+                font-size: nth($size,5);
+                text-align: center;
+                color: $color-secundario;
+                padding: 10px;
+            }
+            p{
+                color: $color-secundario;
+                padding: 5px;
+            }
+        }
+    }
+}
+
+.img-años{
+    @include flex(flex,column,center,center);
+    div{
+        h2{
+            color: $color-secundario;
+            font-size: nth($size,5);
+            padding: 10px;
+        }
+    }
+    div{
+        img{
+            
+        }
+        p{
+            font-size:nth($size,3);
+            padding: 5px;
+        }
+    }
+    div{
+        img{
+            
+        }
+        p{
+            font-size:nth($size,3);
+            padding: 5px;
+        }
+    }
+    div{
+        img{
+            
+        }
+        p{
+            font-size:nth($size,3);
+            padding: 5px;
+        }
+    }
+}
+
+
+.fts{
+    width: $tamaño - 150;
+    @extend %borde
+}
+
+.ubi{
+    h2{
+        color: $color-secundario;
+            font-size: nth($size,5);
+            padding: 10px;
+            text-align: center;
+    }
+    iframe{
+        width: 500px;
+        height: 500px;
+    }
+}
+
+
+
+/*!----gloria----*/
+
+.gloria{
+    section{
+        background-color: $color-principal;
+        color: $color-secundario;
+
+        h1{
+            font-size:nth($size,5);
+            padding: 15px;
+            text-align: center
+        }
+        p{
+            padding: 10px;
+            text-align: center
+            
+            
+        }
+        div{
+            @include flex(flex,row,space-between,center);
+            padding: 10px;
+            h2{
+                width: 10%;
+                margin: 30px;
+                font-size: 50px;
+            }
+            p{
+                width: 25%;
+                font-size: 20px;
+                padding: 20px;
+                background-color: $color-secundario;
+                color: $color-principal
+            }
+            img{
+                @extend %borde
+            }
+        }
+        div{
+            @include flex(flex,row,space-between,center);
+            padding: 10px;
+            h2{
+                width: 10%;
+                margin: 30px;
+                font-size: 50px;
+            }
+            p{
+                width: 25%;
+                font-size: 20px;
+                padding: 20px;
+            }
+            img{
+                @extend %borde
+            }
+        }div{
+            @include flex(flex,row,space-between,center);
+            padding: 10px;
+            h2{
+                width: 10%;
+                margin: 30px;
+                font-size: 50px;
+            }
+            p{
+                width: 25%;
+                font-size: 20px;
+                padding: 20px;
+            }
+            img{
+                @extend %borde
+            }
+        }
+
+    }
+}
+
+.titulos{
+    background-color: $color-principal;
+    color: $color-secundario;
+    text-align: center;
+    h1{
+        font-size: 40px;
+    }
+    p{
+        font-size: 20px;
+    }
+    h2{
+        font-size: 35px;
+        background-color: $color-secundario;
+        color: $color-principal;
+    }
+}
+
+
+
+
+

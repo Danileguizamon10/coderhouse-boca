@@ -1,0 +1,27 @@
+footer{
+    div{
+        img{
+            width: 40px;
+        }
+    }
+}
+
+.card{
+    background-color: $color-secundario;
+    color: $color-principal;
+    .boton{
+        background-color: $color-principal;
+        color: $color-secundario;
+        &:hover{
+            background-color: $color-secundario;
+            color: $color-principal;
+        }
+    }
+}
+
+.pie{
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+    background-color: $color-secundario;
+}

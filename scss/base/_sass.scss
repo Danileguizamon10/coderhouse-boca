@@ -1,0 +1,36 @@
+/*!----variables----*/
+
+$color-principal:blue;
+$color-secundario:yellow;
+
+
+/*!----listas----*/
+
+$colores: yellow, blue;
+$size: 15px,20,25px,35px,40px;
+
+
+
+/*!----operaciones----*/
+
+$tamaño:800px;
+
+/*!----extends----*/
+
+%borde{
+    border: 1px solid yellow;
+    
+}
+
+
+
+/*!----mixind----*/
+
+@mixin flex($flex,$diretion,$justify,$alin){
+    display: $flex;
+    flex-direction: $diretion;
+    justify-content: $justify;
+    text-align: $alin;
+}
+
+

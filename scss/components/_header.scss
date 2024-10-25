@@ -1,0 +1,19 @@
+
+
+.fondobarra{
+    background-color:$color-principal;
+    border: solid 1px $color-secundario;
+    padding: 15px;
+}
+
+.navbar-brand{
+    width: 100%;
+    font-size: 30px;
+    padding: 10px;
+    color: $color-secundario;
+}
+
+
+.nav-link{
+    color: $color-secundario;
+}
