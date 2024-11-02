@@ -22,12 +22,6 @@ text-align: start;
     padding: 20px;
     }
 
-    p{
-    font-size: 20px;
-    color: aliceblue;
-    width: 35%;
-    }
-
     a{
     color: $color-secundario;
     text-align: center;
@@ -61,26 +55,8 @@ text-align: start;
             text-align: center;
         }
     }
-    iframe{
-        width: 100%;
-        height: 100%;
-    }
 }
 
-.grid{
-    padding:20px;
-    background-color: $color-principal;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr ;
-    grid-auto-rows: 300px;
-    gap: 20px;
-    object-fit: cover;
-    img{
-        width: 100%;
-        height: 100%;
-    }
-}
 
 .años{
     font-size: 40px;

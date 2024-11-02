@@ -26,19 +26,6 @@
 }
 }
 
-@media screen and (max-width:840px){
-.grid{
-    grid-template-columns: 1fr;
-}
-img{
-    width: 70%;
-}
-iframe{
-    width: 65%;
-        height: 300px;
-}
-}
-
 @media screen and (max-width:480px){
 .bienvenidos{
     div{
