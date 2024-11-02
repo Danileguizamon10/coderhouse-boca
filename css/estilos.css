@@ -39,18 +39,25 @@ a {
   background-attachment: fixed;
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: center;
   text-align: start; }
 
 .hero h2 {
-  font-size: 40px;
+  text-align: center;
+  font-size: 50px;
   color: yellow;
-  padding: 20px; }
+  padding: 20px;
+  animation: mover-izq-der 3s 1;
+  animation-fill-mode: forwards;
+  overflow-x: hidden; }
+
+@keyframes mover-izq-der {
+  from {
+    transform: translateX(-150px); } }
 
 .hero a {
   color: yellow;
-  text-align: center;
-  width: 30%; }
+  text-align: center; }
 
 .bienvenidos div {
   background-color: blue;
