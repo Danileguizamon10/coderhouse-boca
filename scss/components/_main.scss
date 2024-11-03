@@ -12,33 +12,35 @@ background-attachment: fixed;
 display: flex;
 flex-direction: column;
 justify-content: center;
-text-align: start;
-}
-
-.hero{
-    h2{
+h2{
+        background-color: rgba(0, 0, 0, 0.274);
         text-align: center;
         font-size: 50px;
         color: $color-secundario;
-        padding: 20px;
+        padding: 5px;
+        width: 100%;
+        margin-top: 10px;
         animation: mover-izq-der 3s 1;
         animation-fill-mode: forwards;
-        overflow-x: hidden;
+        
     }
-
-@keyframes mover-izq-der {
-    from{
-        transform: translateX(-150px);
-    }
-    
-}
-
     a{
     color: $color-secundario;
     text-align: center;
-    
     }
 }
+
+
+@keyframes mover-izq-der {
+    from{
+        transform: translateX(-700px);
+    }
+    to{
+        transform: translateX(10px);
+    }
+    
+}
+
 
 .bienvenidos{
     div{background-color: $color-principal;
