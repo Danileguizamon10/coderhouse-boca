@@ -1,6 +1,6 @@
 @media screen and (max-width:725px) {
     .hero {
-        h2{
+        h1{
         font-size:35px;
         text-align: center;
         }
@@ -12,7 +12,7 @@
 }
 @media screen and (max-width:465px) {
     .hero {
-        h2{
+        h1{
         font-size:25px;
         }
         a{
@@ -55,10 +55,10 @@
                 font-size: 25px;
             }
             p{
-                font-size: 15px;
+                font-size: 18px;
             }
             a{
-                font-size: 12px;
+                font-size: 16px;
             }
         }
         img{
@@ -77,10 +77,10 @@
                 font-size: 25px;
             }
             p{
-                font-size: 15px;
+                font-size: 18px;
             }
             a{
-                font-size: 12px;
+                font-size: 16px;
             }
         }
         img{
@@ -99,10 +99,10 @@
                 font-size: 25px;
             }
             p{
-                font-size: 15px;
+                font-size: 18px;
             }
             a{
-                font-size: 12px;
+                font-size: 16px;
             }
         }
         img{
@@ -115,11 +115,11 @@
 
 @media screen and (max-width:600px){
     .intro{
-        h2{
+        h1{
             font-size: 25px;
         }
         p{
-            font-size: 14px;
+            font-size: 17px;
         }
     }
 }
@@ -145,7 +145,7 @@
                     font-size: 30px;
                 }
                 p{
-                    font-size: 12px;
+                    font-size: 16px;
                 }
             }
         }
@@ -164,7 +164,7 @@
                 width: 350px;
             }
             p{
-                font-size: 15px;
+                font-size: 17px;
             }
         }
         div{
@@ -172,7 +172,7 @@
                 width: 350px;
             }
             p{
-                font-size: 15px;
+                font-size: 17px;
             }
         }
         div{
@@ -180,7 +180,7 @@
                 width: 350px;
             }
             p{
-                font-size: 15px;
+                font-size: 17px;
             }
         }
     }
@@ -192,8 +192,8 @@
             font-size: 22px;
         }
         iframe{
-            width: 380px;
-            height: 380px;
+            width: 340px;
+            height: 340px;
         }
     }
 }
@@ -214,7 +214,7 @@
                     font-size: 20px;
                 }
                 p{
-                    font-size: 16px;
+                    font-size: 18px;
                 }
                 img{
                     width: 350px;
@@ -254,7 +254,7 @@
                 font-size: 30px;
             }
             p{
-                font-size: 20px;
+                font-size: 19px;
             }
             div{
                 display: flex;
@@ -269,7 +269,7 @@
                 }
                 p{
                     width: 100%;
-                    font-size: 16px;
+                    font-size: 18px;
                 }
                 img{
                     
@@ -302,6 +302,35 @@
                 img{
                     width: 350px;
                 }
+            }
+        }
+    }
+}
+
+
+
+@media screen and (max-width:745px){
+    .gloria{
+        section{
+            h1{
+                font-size: 28px;
+            }
+            p{
+                font-size: 18px;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width:500px){
+    .gloria{
+        section{
+            h1{
+                font-size: 24px;
+            }
+            p{
+                font-size: 16px;
             }
         }
     }

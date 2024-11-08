@@ -3,16 +3,17 @@
 
 .hero{
     text-align: center;
-height: 90vh; 
-background-image: url("../img/boquita.png.jpg");
-background-position:center ;
-background-repeat: no-repeat;
-background-size: cover;
-background-attachment: fixed;
-display: flex;
-flex-direction: column;
-justify-content: center;
-h2{
+    height: 90vh; 
+    background-image: url("../img/boquita.png.jpg");
+    background-position:center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: auto;
+h1{
         background-color: rgba(0, 0, 0, 0.274);
         text-align: center;
         font-size: 50px;
@@ -22,7 +23,7 @@ h2{
         margin-top: 10px;
         animation: mover-izq-der 3s 1;
         animation-fill-mode: forwards;
-        
+        overflow: hidden;
     }
     a{
     color: $color-secundario;
@@ -185,14 +186,6 @@ h2{
     }
 }
 
-.fixed{
-    position: fixed;
-    bottom: 60px;
-    right: 50px;
-    img{
-        width: 60px;
-    }
-}
 
 /*!----idolos----*/
 
@@ -200,7 +193,7 @@ h2{
 .pag-dos{
     background-color: nth($colores, 2);
     color: nth($colores,1);
-    h3{
+    h2{
         font-size: nth($size,3);
         text-align: center;
         padding: 5px;
@@ -213,7 +206,7 @@ h2{
 }
 
 .intro{
-        h2{
+        h1{
             font-size: nth($size,5);
             text-align: center;
             padding: 10px;
@@ -346,17 +339,18 @@ h2{
         h1{
             font-size:nth($size,5);
             padding: 15px;
-            text-align: center
+            text-align: center;
         }
         p{
             padding: 10px;
-            text-align: center
-            
+            text-align: center;
+            font-size: 22px
             
         }
         div{
             @include flex(flex,row,space-between,center);
             padding: 10px;
+            overflow: hidden;
             h2{
                 width: 10%;
                 margin: 30px;
